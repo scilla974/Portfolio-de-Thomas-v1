@@ -223,8 +223,11 @@ button {
     color: #FFFFFF;
     border: none;
     height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    align-self: center;
 }
-
 
 /*** Footer ***/
 footer {
@@ -256,6 +259,7 @@ footer {
     
     header {
         flex-direction: column-reverse;
+        align-items: center;
         text-align: center;
         margin-top: 32px;
     }
@@ -295,7 +299,19 @@ footer {
         width: 100%;
     }
 
-     #coordonnées {
+     #coordonnees {
         display: none;
+    }
+
+    input,select,textarea {
+        width: 100%;
+        background-color: #F7F7F7;
+        border: none;
+        height: 46px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
     }
 }
